@@ -64,7 +64,7 @@ always #5000 wb_clk_i = ~wb_clk_i; // We have considered the Wishbone clock freq
     
     uvm_config_db#(virtual pkt_interface)::set(null, "", "pkt_vif", pkt_vif);
 
-    run_test("xgemac_base_test");
+     run_test("xgemac_normal_test");
    
   end
 
